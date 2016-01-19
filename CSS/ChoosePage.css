@@ -1,0 +1,88 @@
+.header-left {
+    border-right: 1px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+.back {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #444, #222);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+h4 {
+    font-size: 17.5px;
+    margin: 10px 0;
+    font-family: inherit;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+
+.inputbox {
+    min-height: 20px;
+    padding: 9px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    vertical-align: middle;
+}
+
+h3 {
+    line-height: 40px;
+    color: #08c;
+    /*text-rendering: optimizelegibility;*/
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3px 0 2px 0;
+    padding: 0;
+    /*display: inline-block;*/
+}
+h3:hover{
+    color: #005580;
+}
+
+.list_style_2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.list_style_2 li {
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #fcfcfc), color-stop(1, #ececec));
+    position: relative;
+    line-height: 20px;
+    text-align: -webkit-match-parent;
+
+}
+
+.list_style_2 li a {
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    width: 100%;
+    height: 65px;
+    box-sizing: border-box;
+}
+.list_style_2 li p{
+    vertical-align: top;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 3px 0 2px 0;
+    font-family: 黑体;
+}
